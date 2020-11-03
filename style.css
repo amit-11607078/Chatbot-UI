@@ -1,0 +1,456 @@
+body {
+  margin: 0%;
+  position: relative;
+  min-height: 100%;
+  top: 0px;
+}
+.top {
+  position: relative;
+}
+
+.div1 {
+  display: none;
+
+  position: relative;
+  width: 416px;
+  height: 629px;
+  background: #ffffff;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 18px;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.div2 {
+  display: none;
+  position: absolute;
+  width: 416px;
+  height: 278px;
+  left: 0px;
+
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+
+  background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+h1 {
+  display: none;
+  position: absolute;
+  width: 53px;
+  height: 39px;
+  left: 56px;
+  top: 19px;
+  margin-top: 0;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+
+  color: #ffffff;
+
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+h2 {
+  display: none;
+  position: absolute;
+  width: 54px;
+  height: 29px;
+  left: 56px;
+  top: 65px;
+  margin-top: 0;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+
+  color: #ffffff;
+
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+h3 {
+  display: none;
+  position: absolute;
+  width: 228px;
+  height: 46px;
+  left: 56px;
+  top: 104px;
+  margin-top: 0;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #ffffff;
+
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.cir {
+  display: none;
+  position: absolute;
+  width: 67px;
+  height: 67px;
+  left: 38px;
+  top: 165px;
+
+  background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  z-index: 1;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.div-down {
+  display: none;
+  position: absolute;
+  width: 390px;
+  height: 400px;
+  left: 13px;
+  top: 199px;
+
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.img-cir {
+  position: absolute;
+  left: 15px;
+  right: 78.61%;
+  top: 18px;
+  bottom: 66.14%;
+
+  background: #ffffff;
+}
+
+h4 {
+  display: none;
+  position: absolute;
+  width: 188px;
+  height: 18px;
+  left: 39px;
+  top: 249px;
+  margin-top: 0;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #2d2d2d;
+
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+.que {
+  display: none;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 234px;
+  top: 246px;
+
+  background: rgba(247, 183, 49, 0.12);
+
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.text-div1 {
+  display: none;
+  position: absolute;
+  width: 339px;
+  height: 50px;
+  left: 39px;
+  top: 278px;
+
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.text-div-img {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 5px;
+  top: 18px;
+
+  background: rgba(255, 118, 0, 0.15);
+}
+
+.text-div-para {
+  position: absolute;
+
+  left: 26px;
+  top: 2px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 21px;
+
+  color: #2d2d2d;
+}
+
+.text-div2 {
+  display: none;
+  position: absolute;
+  width: 339px;
+  height: 50px;
+  left: 39px;
+  top: 337px;
+
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.text-div3 {
+  display: none;
+  position: absolute;
+  width: 339px;
+  height: 50px;
+  left: 39px;
+  top: 396px;
+
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.text-div4 {
+  display: none;
+  position: absolute;
+  width: 339px;
+  height: 50px;
+  left: 39px;
+  top: 455px;
+
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.text-div5 {
+  display: none;
+  position: absolute;
+  width: 268px;
+  height: 44px;
+  left: 74px;
+  top: 534px;
+
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+.text-div-img5 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 40px;
+  top: 15.5px;
+
+  background: rgba(255, 118, 0, 0.15);
+}
+
+.text-div-para5 {
+  position: absolute;
+  width: 168px;
+  height: 18px;
+  left: 60px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #2d2d2d;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 420px) {
+  body {
+    margin: 0%;
+    width: 100%;
+  }
+
+  .div1 {
+    width: 100vw;
+  }
+  .div2 {
+    width: 100vw;
+  }
+  .div-down {
+    width: 94vw;
+    left: 3%;
+  }
+  .z {
+    width: 79vw;
+  }
+  .text-div1 {
+    height: 52px;
+  }
+
+  .text-div5 {
+    width: 79vw;
+    height: 50px;
+    left: 39px;
+    top: 534px;
+  }
+}
+
+@media only screen and (max-device-height: 630px) {
+  body {
+    margin: 0%;
+    height: 100%;
+  }
+  .div1 {
+    height: 100vh;
+  }
+  .div2 {
+    height: 44.2%;
+  }
+  .div-down {
+    height: 64%;
+  }
+  .text-div5 {
+    top: 90%;
+    height: 44px;
+  }
+  .text-div-para5 {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (min-device-width: 250px) and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 3) {
+  body {
+    margin: 0%;
+    width: 100vw;
+    left: 0%;
+  }
+
+  .div1 {
+    width: 100vw;
+  }
+  .div2 {
+    width: 100vw;
+  }
+  .div-down {
+    width: 93vw;
+    left: 3.5%;
+  }
+  .z {
+    width: 93vw;
+  }
+  .text-div1 {
+    height: 52px;
+  }
+  .z {
+    left: 3.5%;
+  }
+  .text-div5 {
+    left: 3.5%;
+
+    align-items: center;
+    width: 93%;
+  }
+
+  .top-text {
+    left: 10%;
+  }
+}
+
+/* .text-div5 {
+    width: 79vw;
+    height: 50px;
+    left: 39px;
+    top: 534px;
+  } */

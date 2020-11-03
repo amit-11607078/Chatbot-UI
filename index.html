@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Chatbot</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <style>
+      @media only screen and (min-device-width: 279px) and (max-device-width: 416px) {
+        .iframe-div iframe {
+          position: absolute;
+
+          width: 100%;
+          overflow: hidden;
+          height: 100%;
+        }
+        .iframe-div {
+          position: relative;
+          width: 100%;
+
+          height: 100vh;
+        }
+      }
+
+      @media only screen and (max-device-height: 630px) {
+        body {
+          height: 100vh;
+        }
+        .iframe-div iframe {
+          position: absolute;
+
+          width: 100vw;
+          overflow: hidden;
+          height: 100vh;
+        }
+        .iframe-div {
+          position: relative;
+          width: 100vw;
+
+          height: 100vh;
+        }
+      }
+
+      body {
+        margin: 0% !important;
+      }
+      iframe {
+        border-radius: 18px;
+
+        border: none;
+        display: none;
+        /* position: absolute; */
+        align-items: center;
+        justify-content: center;
+      }
+
+      .iframe-div {
+        position: fixed; display: block; right: 0%; top: 0%;
+        
+        align-items: center;
+        justify-content: center;
+      }
+      #myBtn {
+        /* -webkit-animation-duration: 2s; */
+        animation-duration: 2s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        /* -webkit-animation-name: fadeOut; */
+        /* animation-name: fadeOut; */
+      }
+
+      @-webkit-keyframes fadeOut {
+        from {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+        }
+      }
+
+      @keyframes fadeOut {
+        from {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="iframe-div">
+        <iframe id="frame" src="" height="629px" width="416px" allowfullscreen ">
+          title="Iframe Example" ></iframe
+        >
+      </div>
+      <img
+        src="chatimg1.jpg"
+        width="75"
+        height="75"
+        alt=""
+        id="myBtn"
+        style="position: fixed; display: block; right: 0%; bottom: 0%"
+      />
+    </div>
+
+    <script>
+      document.getElementById("myBtn").addEventListener("click", clickbtn);
+      function clickbtn() {
+        document.getElementById("frame").src = "chatbot.html";
+        document.getElementById("frame").style.display = "block";
+
+        document.getElementById("myBtn").style.animationName = "fadeOut";
+      }
+    </script>
+  </body>
+</html>
